@@ -5,8 +5,7 @@ ARCHS = arm64 armv7 armv7s
 DEBUG = 0
 GO_EASY_ON_ME = 1
 LDFLAGS += -Wl,-segalign,0x4000
-
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = BeepBeep
 
