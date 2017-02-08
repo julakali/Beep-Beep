@@ -4,6 +4,6 @@ Depends: mobilesubstrate
 Version: 2.1
 Architecture: iphoneos-arm
 Description: Choose what happens when you plug in your device!
-Maintainer: Ziph0n
+Maintainer: julakali
 Author: Ziph0n
 Section: Tweaks
