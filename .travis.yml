@@ -13,4 +13,6 @@ install: true
 
 script: 
   - sed -i -- 's/-Zlzma/-Zgzip/g' theos/makefiles/package/deb.mk
+  - export THEOS=theos/
+  - export PATH=$THEOS/bin:$PATH
   - make package messages=yes
