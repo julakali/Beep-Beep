@@ -23,6 +23,7 @@ deploy:
     secure: BjBJCRUq62adrlwHvItLEgXQnqCxUZl1uGV/lYUC4MBoJoVdoE4T5mYXia53p+9vvBFoWa1aLJB5DK4Qv/40omUR0t1idy8vcAPsCwSjEem0sK9YSQAxBLnB9HkKHGCK3Y51dRCOul7dWeImxTSiWYPG6yOlkhvlDLmPhzX78dNpkOcEr/6OU4OmbFdtnurJhftRRv1Gn9mjboiGeX/yv97wkIO1SZfUm1fjnXEFBwThpcI9opVPtoUx0xsNg9jNODnJMXvXIBRQ1JZTRDqxCYu3fHvrf3CA3WgTX4/SQ6RgnSRJRxwE8MtaI33dR1GpltOTTj7I0kg6qa2m64I3jJNK5PpRN4HVIMTFJF9oAg7/WaK9hHYnwR6D0vrfhuoNzVRRPBCUKOxM2VgLyX8kZ/iiHLbNBJwygOlruJgX3NM2JKpfSULpAWOeROE/nw7GCguzP2leEPC5aNFpSYV0XOyszkBXB2jmjmeOzVJ+e97nw2tjCSWYbhPU+Y59UsAG1z4AyD4O/QZKdp+7Xnromc4P35Mra0mzEx9c5NAB7u6g3OH7MvH3QfgZH8G8gefPSY5hMmIDZwYEWLBsCCcj7a3gUf+she2KPctc6BhOKOvxtFCZeTtLph3spD+mk/MRUTDuwKc0pbH1wrhwzFEIEViUuiySqufwVBpUzUe2d/o=
   file_glob: true
   file: "${RELEASE_PKG_FILE}"
+  skip_cleanup: true
   on:
     repo: julakali/Beep-Beep
-    branch: master
+    tags: true
