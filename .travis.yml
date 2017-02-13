@@ -25,4 +25,4 @@ deploy:
   file: "${RELEASE_PKG_FILE}"
   on:
     repo: julakali/Beep-Beep
-    branch: testbranch
+    branch: master
