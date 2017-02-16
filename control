@@ -1,7 +1,7 @@
-Package: com.ziph0n.beepbeep
+Package: de.fausis.beepbeep
 Name: Beep Beep
 Depends: mobilesubstrate
-Version: 2.1
+Version: 4.1
 Architecture: iphoneos-arm
 Description: Choose what happens when you plug in your device!
 Maintainer: julakali
